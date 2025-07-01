@@ -1,0 +1,46 @@
+name: cardchecks_diargram
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Для работы с сетью и API
+  http: ^1.2.1
+  
+  # Для сохранения данных сессии
+  shared_preferences: ^2.2.3
+
+  # Основные пакеты для дашборда
+  fl_chart: ^0.68.0
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  animate_do: ^3.3.4
+  collection: ^1.18.0 # Для groupBy
+
+  # Для экрана входа и локализации
+  mask_text_input_formatter: ^2.9.0
+  intl: ^0.20.2
+
+  # Иконки
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/tea_cup.svg
+    - assets/pos_terminal.svg
+    - assets/tea_pack.svg

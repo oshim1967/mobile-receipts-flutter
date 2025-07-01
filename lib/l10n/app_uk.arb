@@ -1,0 +1,16 @@
+{
+  "appTitle": "Діаграма Чеків",
+  "login": "Логін",
+  "password": "Пароль",
+  "token": "Токен",
+  "loginButton": "Увійти",
+  "dateRange": "Період дат",
+  "selectDateRange": "Оберіть період дат",
+  "noData": "Немає даних для відображення",
+  "error": "Помилка",
+  "sum": "Сума",
+  "shop": "Магазин",
+  "address": "Адреса",
+  "changeLanguage": "Змінити мову",
+  "logout": "Вийти"
+} 
