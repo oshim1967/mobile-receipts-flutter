@@ -227,6 +227,7 @@ class _MainScreenState extends State<MainScreen> with TickerProviderStateMixin {
           const SizedBox(height: 32),
           if (touchedIndex != null && touchedIndex! >= 0 && touchedIndex! < chartSegments.length)
              SlideInLeft(
+                key: ValueKey(touchedIndex),
                 duration: const Duration(milliseconds: 500),
                 child: _buildInfoCard(chartSegments[touchedIndex!]),
              ),

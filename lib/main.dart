@@ -29,6 +29,7 @@ class _MyAppState extends State<MyApp> {
       setLocale: setLocale,
       child: MaterialApp(
         title: 'CardChecks Diagram',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           // This is the theme of your application.
           //
