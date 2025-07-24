@@ -24,6 +24,10 @@ ios/Runner.xcuserstate
 # Android
 android/.gradle/
 android/app/debug/
+
+# 1C
+1c_module.txt
+
 android/app/profile/
 android/app/release/
 android/build/
